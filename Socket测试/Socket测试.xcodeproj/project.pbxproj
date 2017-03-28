@@ -17,6 +17,8 @@
 		44386BEB1E248B86004F8FAD /* Socket__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44386BEA1E248B86004F8FAD /* Socket__Tests.m */; };
 		44386BF61E248B86004F8FAD /* Socket__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44386BF51E248B86004F8FAD /* Socket__UITests.m */; };
 		44571D751E8A2D5700D05568 /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44571D741E8A2D5700D05568 /* ChatModel.m */; };
+		44571E1A1E8A68A900D05568 /* JTSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 44571E191E8A68A900D05568 /* JTSocket.m */; };
+		44571E1D1E8A777500D05568 /* JTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 44571E1C1E8A777500D05568 /* JTMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		44571D721E8A2CA500D05568 /* SocketModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketModelProtocol.h; sourceTree = "<group>"; };
 		44571D731E8A2D5700D05568 /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
 		44571D741E8A2D5700D05568 /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
+		44571E181E8A68A900D05568 /* JTSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSocket.h; sourceTree = "<group>"; };
+		44571E191E8A68A900D05568 /* JTSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSocket.m; sourceTree = "<group>"; };
+		44571E1B1E8A777500D05568 /* JTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTMessage.h; sourceTree = "<group>"; };
+		44571E1C1E8A777500D05568 /* JTMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 				44386BD31E248B86004F8FAD /* ViewController.h */,
 				44386BD41E248B86004F8FAD /* ViewController.m */,
 				44386BD61E248B86004F8FAD /* Main.storyboard */,
+				44571E171E8A689B00D05568 /* JTSocket */,
 				44571D711E8A2C6C00D05568 /* Model */,
 				44386BDC1E248B86004F8FAD /* Assets.xcassets */,
 				44386BDE1E248B86004F8FAD /* LaunchScreen.storyboard */,
@@ -156,6 +163,17 @@
 				44571D741E8A2D5700D05568 /* ChatModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		44571E171E8A689B00D05568 /* JTSocket */ = {
+			isa = PBXGroup;
+			children = (
+				44571E181E8A68A900D05568 /* JTSocket.h */,
+				44571E191E8A68A900D05568 /* JTSocket.m */,
+				44571E1B1E8A777500D05568 /* JTMessage.h */,
+				44571E1C1E8A777500D05568 /* JTMessage.m */,
+			);
+			path = JTSocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +309,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44571E1D1E8A777500D05568 /* JTMessage.m in Sources */,
+				44571E1A1E8A68A900D05568 /* JTSocket.m in Sources */,
 				44386BDB1E248B86004F8FAD /* Socket__.xcdatamodeld in Sources */,
 				44386BD51E248B86004F8FAD /* ViewController.m in Sources */,
 				44386BD21E248B86004F8FAD /* AppDelegate.m in Sources */,

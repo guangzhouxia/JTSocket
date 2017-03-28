@@ -288,7 +288,17 @@
             break;
     }
     return cell;
-    
+}
+
+#pragma mark - private func
+//滚动视图到底部
+- (void)scrollToBottom
+{
+    NSInteger numberOfRows = [self.chatTableView numberOfRowsInSection:0];
+    if (numberOfRows > 0) {
+        [self.chatTableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:numberOfRows-1 inSection:0]
+                             atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+    }
 }
 
 @end

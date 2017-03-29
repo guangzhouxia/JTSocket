@@ -56,6 +56,7 @@
 		44386BF11E248B86004F8FAD /* Socket测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Socket测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44386BF51E248B86004F8FAD /* Socket__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Socket__UITests.m; sourceTree = "<group>"; };
 		44386BF71E248B86004F8FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443A60831E8B5E1900F0D8A9 /* JTSocketHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSocketHeader.h; sourceTree = "<group>"; };
 		44571D721E8A2CA500D05568 /* SocketModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketModelProtocol.h; sourceTree = "<group>"; };
 		44571D731E8A2D5700D05568 /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
 		44571D741E8A2D5700D05568 /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
@@ -172,6 +173,7 @@
 				44571E191E8A68A900D05568 /* JTSocket.m */,
 				44571E1B1E8A777500D05568 /* JTMessage.h */,
 				44571E1C1E8A777500D05568 /* JTMessage.m */,
+				443A60831E8B5E1900F0D8A9 /* JTSocketHeader.h */,
 			);
 			path = JTSocket;
 			sourceTree = "<group>";

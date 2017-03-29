@@ -92,7 +92,7 @@
                     </view>
                     <connections>
                         <outlet property="chatTableView" destination="dff-14-3iM" id="Isv-cb-PXs"/>
-                        <outlet property="contentLabel" destination="ACR-M4-3Od" id="fJs-VX-0bt"/>
+                        <outlet property="contentField" destination="ACR-M4-3Od" id="5Ks-Yu-4kA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

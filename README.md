@@ -3,6 +3,10 @@
 ## Socket 是在应用层和传输层之间的一个抽象层，用于进程之间的通信。（具体网上很多科普，这里主要介绍怎么使用）
 ### Socket在客户端涉及到的操作主要有：1.创建Socket －>2.连接（connect）－>3.通讯消息（send）－>4.关闭（close）.
 #### 使用方法：
+#### 0.导入头文件
+```
+#import "JTSocketHeader.h"
+```
 #### 1.初始化
   ```Object-C
     NSString * host = @"192.168.2.78"; //可以用SocketTool创建,http://www.cocoachina.com/bbs/read.php?tid=141721
